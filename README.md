@@ -1,86 +1,43 @@
-# 📊 Credit Delinquency Risk Analysis
+# 📊 Geldium Credit Delinquency Risk Analysis
 
-> End-to-end exploratory data analysis of a customer credit delinquency dataset using Python, statistical analysis, and AI-assisted insights.
+> **End-to-End Credit Risk Analytics Project**
+>
+> Exploratory Data Analysis • Machine Learning • Power BI • Python
 
----
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811)
+![Status](https://img.shields.io/badge/Status-In%20Progress-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## 📖 Project Overview
+## 📌 Project Overview
 
-Financial institutions rely on accurate risk assessment to identify customers who are likely to become delinquent. Before predictive modeling can be performed, it is essential to understand the quality of the available data, identify missing values, detect anomalies, and uncover meaningful business insights.
+This project demonstrates an end-to-end credit risk analytics workflow using Geldium's customer delinquency dataset.
 
-This project performs an end-to-end Exploratory Data Analysis (EDA) on a credit delinquency dataset to support future predictive modeling and business decision-making.
+The objective is to analyze customer financial behavior, identify potential risk indicators, and prepare the dataset for predictive modeling through a structured analytics pipeline.
 
----
+The project follows industry-standard analytics practices, including:
 
-## 🎯 Objectives
+- Business Understanding
+- Exploratory Data Analysis (EDA)
+- Data Quality Assessment
+- Data Preprocessing
+- Feature Engineering
+- Machine Learning
+- Model Evaluation
+- Business Intelligence Dashboarding
 
-- Understand the dataset structure and quality.
-- Identify missing values and inconsistencies.
-- Perform data cleaning and preprocessing.
-- Explore customer financial characteristics.
-- Identify key delinquency risk indicators.
-- Generate actionable business insights.
-- Prepare the dataset for predictive modeling.
+## 🚀 Project Progress
 
----
-
-## 📂 Repository Structure
-
-```text
-.
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-├── prompts/
-├── reports/
-├── src/
-├── visuals/
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── .gitignore
-```
-
----
-
-## 🛠️ Tech Stack
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Excel
-- Jupyter Notebook
-- Git & GitHub
-- ChatGPT (AI-assisted analysis)
-
----
-
-## 🚀 Project Workflow
-
-1. Business Understanding
-2. Dataset Review
-3. Data Cleaning
-4. Exploratory Data Analysis
-5. Missing Value Treatment
-6. Feature Relationship Analysis
-7. Risk Indicator Identification
-8. Business Insights & Reporting
-
----
-
-## 📌 Project Status
-
-🚧 In Progress
-
-This repository is actively being developed as part of a complete data analytics case study.
-
----
-
-## 👩‍💻 Author
-
-**Sakshi Raut**
-
-Aspiring Data Analyst | Python | SQL | Power BI | Excel
+| Phase | Status |
+|---------|--------|
+| Repository Setup | ✅ Completed |
+| Exploratory Data Analysis | ✅ Completed |
+| Business Report | ✅ Completed |
+| Data Preprocessing | 🚧 In Progress |
+| Feature Engineering | ⏳ Planned |
+| Machine Learning | ⏳ Planned |
+| Model Evaluation | ⏳ Planned |
+| Power BI Dashboard | ⏳ Planned |
+| Final Documentation | ⏳ Planned |
