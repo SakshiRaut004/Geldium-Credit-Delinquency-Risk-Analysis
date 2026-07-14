@@ -30,6 +30,13 @@ from sklearn.metrics import (
     roc_curve
 )
 
+from sklearn.tree import DecisionTreeClassifier
+
+from sklearn.ensemble import (
+    RandomForestClassifier,
+    GradientBoostingClassifier
+)
+
 def build_logistic_regression(random_state=42):
     """
     Create Logistic Regression model.
@@ -276,3 +283,53 @@ def evaluate_and_visualize(
         X_test,
         y_test
     )
+
+from sklearn.tree import DecisionTreeClassifier
+
+from sklearn.ensemble import (
+    RandomForestClassifier,
+    GradientBoostingClassifier
+)
+
+def build_random_forest(
+    random_state=42
+):
+    """
+    Create Random Forest classifier.
+    """
+
+    return RandomForestClassifier(
+
+        n_estimators=200,
+
+        random_state=random_state
+
+    )
+
+def build_gradient_boosting(
+    random_state=42
+):
+    """
+    Create Gradient Boosting classifier.
+    """
+
+    return GradientBoostingClassifier(
+        random_state=random_state
+    )
+def train_and_evaluate(
+    model,
+    X_train,
+    X_test,
+    y_train,
+    y_test
+):
+
+    model.fit(X_train, y_train)
+
+    metrics = evaluate_model(
+        model,
+        X_test,
+        y_test
+    )
+
+    return model, metrics
